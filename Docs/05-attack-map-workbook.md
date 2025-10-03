@@ -11,4 +11,7 @@ If the map doesn't show coordinates:
 
 Screenshot checklist:
 - `14-workbook-advanced-editor-json.png`
-- `15-attack-map-final.png`
+# 15-attack-map-final
+- <p align="center">
+  <img src="https://github.com/xAHIINX00/honeypot-cloud-lab-azure/blob/21db1a23507c21e472c7356ce3d1af046bf956b4/Attack-Map.png"/>
+</p>
