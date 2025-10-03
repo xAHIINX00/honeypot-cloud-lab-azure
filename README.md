@@ -1,5 +1,5 @@
 # honeypot-cloud-lab-azure
-**Short description**  
+
 This project demonstrates how to build a cloud honeypot in Microsoft Azure, collect logs to a central Log Analytics Workspace (LAW), enrich logs with GeoIP data using a Sentinel Watchlist, and visualize attacker origins with an Attack Map workbook.
 
 **What you'll get in this repo**
