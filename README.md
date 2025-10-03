@@ -32,8 +32,10 @@ To **learn cloud security hands-on**, understand how attackers probe exposed ass
 ## 🏗️ Architecture
 
 <p align="center">
-  <img src="ARCHITECTURE.png" width="650" alt="Architecture Diagram"/>
+  <img src="https://raw.githubusercontent.com/xAHIINX00/honeypot-cloud-lab-azure/fd18651f294ca2f70ec0025b87e6e81ac956ce5d/Architecture.png"
+       alt="Architecture Diagram" width="650" />
 </p>
+
 
 **Data Flow:**  
 `Attacker 🌐 → Honeypot VM 🖥️ → NSG (Allow All Inbound) → Data Collection Rule (DCR) → Log Analytics Workspace → Microsoft Sentinel → Attack Map Workbook`
