@@ -1,7 +1,7 @@
 # 🔥 Azure Cloud Honeypot Lab — Cloud Security Project
 
 <p align="center">
-  <img src="docs/screenshots/15-attack-map-final.png" width="700" alt="Attack Map Screenshot"/>
+  <img src="https://github.com/xAHIINX00/honeypot-cloud-lab-azure/blob/21db1a23507c21e472c7356ce3d1af046bf956b4/Attack-Map.png"/>
 </p>
 
 ## 🌍 Overview
