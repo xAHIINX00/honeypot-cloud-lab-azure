@@ -1,4 +1,4 @@
-# 🔥 Azure Cloud Honeypot Lab — Cloud Security Project
+# 🔥Azure Cloud Honeypot Lab — Cloud Security Project
 
 
 ## 🌍 Overview
