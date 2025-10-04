@@ -1,8 +1,5 @@
 # 🔥 Azure Cloud Honeypot Lab — Cloud Security Project
 
-<p align="center">
-  <img src="https://github.com/xAHIINX00/honeypot-cloud-lab-azure/blob/21db1a23507c21e472c7356ce3d1af046bf956b4/Attack-Map.png"/>
-</p>
 
 ## 🌍 Overview
 This project is a **cloud-based honeypot lab** built on **Microsoft Azure**.  
@@ -15,6 +12,9 @@ To **learn cloud security hands-on**, understand how attackers probe exposed ass
 - KQL (Kusto Query Language) 🔍
 - SIEM (Microsoft Sentinel) 📊
 - Log Analytics & Watchlists 🗂️
+ <p align="center">
+  <img src="https://github.com/xAHIINX00/honeypot-cloud-lab-azure/blob/21db1a23507c21e472c7356ce3d1af046bf956b4/Attack-Map.png"/>
+</p>
 
 ---
 
@@ -42,4 +42,4 @@ To **learn cloud security hands-on**, understand how attackers probe exposed ass
 
 ---
 
-## 📂 Repository Structure
+
