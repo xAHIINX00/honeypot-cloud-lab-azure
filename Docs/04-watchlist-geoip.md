@@ -1,17 +1,35 @@
-# 04 - Watchlist: GeoIP enrichment
+# 🗺️ 04 — Watchlist: GeoIP Enrichment
 
-1. Download the geoip CSV used in the lab:
-   - https://raw.githubusercontent.com/joshmadakor1/lognpacific-public/refs/heads/main/misc/geoip-summarized.csv
-2. In Sentinel → Configuration → Watchlists → + Add watchlist:
-   - Name/Alias: `geoip`
-   - Source type: Local File (upload the CSV)
-   - Number of header rows before data: 0
-   - Search Key: `network` (the CSV must have a `network` column that represents IP ranges)
-3. Wait for the watchlist to fully import (approx ~54,000 rows in the sample).
-4. Test enrichment:
-   - Use `queries/query-geoip-lookup.kql` and replace `<ATTACKER_IP>` with an IP from your logs.
-   - Run and confirm Country/Region/City columns are present.
+> 🎯 **Goal:** Import a GeoIP watchlist into Microsoft Sentinel and enrich attacker IPs to identify their geographic origin.
 
-Screenshot checklist:
-- `12-watchlist-import-count.png`
-- `13-ipv4_lookup-result.png`
+---
+
+## 🔽 Step 1 — Download the GeoIP CSV
+
+Use this sample GeoIP CSV file for the lab:  
+`https://raw.githubusercontent.com/joshmadakor1/lognpacific-public/refs/heads/main/misc/geoip-summarized.csv`
+
+> ⚠️ Before uploading, verify the CSV license. If unsure, link to it instead of pushing the file to your repo.
+
+---
+
+## ➕ Step 2 — Add a Watchlist in Sentinel
+
+1. Azure Portal → **Microsoft Sentinel → Configuration → Watchlists**
+2. Click **+ Add watchlist**
+3. Configure:  
+   - **Name:** `GeoIP`  
+   - **Alias:** `geoip` (_used in KQL as `_GetWatchlist("geoip")`_)  
+   - **Source type:** Local file → Upload the CSV  
+   - **Header rows before data:** `0`  
+   - **Search key:** `network` (the CSV must include a `network` column in CIDR format such as `8.8.8.0/24`)
+4. Click **Create** and wait a few minutes for the import to finish.
+
+🖼️ **Screenshot:** `docs/screenshots/12-watchlist-import-count.png` — show import status and row count (~54 000).
+
+---
+
+## 🔎 Step 3 — Test GeoIP Enrichment (KQL)
+
+Run this in Sentinel → **Logs**.  
+Replace `<ATTACKER_IP>` with an IP found from `query-4625.kql`.
