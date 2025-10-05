@@ -22,7 +22,7 @@ Once logged in:
 
 📝 *Example Screenshot:*  
 _Add this image in your repo later as_  
-https://github.com/xAHIINX00/honeypot-cloud-lab-azure/blob/acec30ca518d538896a019e0c14cc5bd74e66d00/VM.png  
+https://github.com/xAHIINX00/honeypot-cloud-lab-azure/blob/d5008899303bd26bde3878142ee0e149acc9c4fe/Azure%20Platform.png  
 
 ---
 
