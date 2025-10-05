@@ -17,9 +17,10 @@
 
 💡 *Tip:* Smaller VM sizes keep costs low — perfect for a lab environment.
 
-🖼️ **Screenshot to Capture:**  
-`docs/screenshots/02-create-vm-size.png`  
-_Show the selected image and VM size._
+ 
+ <p align="center">
+  <img src="https://github.com/xAHIINX00/honeypot-cloud-lab-azure/blob/acec30ca518d538896a019e0c14cc5bd74e66d00/VM.png"/>
+</p>
 
 ---
 
