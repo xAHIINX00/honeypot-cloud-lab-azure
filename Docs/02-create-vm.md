@@ -37,10 +37,10 @@
 
 ⚠️ **Important:** This configuration intentionally makes the VM vulnerable.  
 It is **for lab use only** — do not use this on production environments!
+<p align="center">
+<img src="https://github.com/xAHIINX00/honeypot-cloud-lab-azure/blob/65cf78694b2123ca53088494a257ca6815e7bd96/NSG.png"/>
+</p>
 
-🖼️ **Screenshot to Capture:**  
-`docs/screenshots/03-nsg-rule-all-inbound.png`  
-_Show your NSG inbound rule allowing all traffic._
 
 ---
 
@@ -63,8 +63,7 @@ Inside your Windows VM:
 3. Turn **Firewall state → Off** for all profiles (Domain, Private, Public).
 4. Apply changes.
 
-🖼️ **Screenshot to Capture:**  
-`docs/screenshots/04-vm-windows-firewall-off.png`
+
 
 ⚠️ **Note:** Disabling the firewall ensures attacker attempts reach your VM for detection by the honeypot setup.
 
