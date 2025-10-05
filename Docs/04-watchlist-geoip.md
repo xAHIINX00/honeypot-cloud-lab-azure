@@ -25,8 +25,9 @@ Use this sample GeoIP CSV file for the lab:
    - **Search key:** `network` (the CSV must include a `network` column in CIDR format such as `8.8.8.0/24`)
 4. Click **Create** and wait a few minutes for the import to finish.
 
-🖼️ **Screenshot:** `docs/screenshots/12-watchlist-import-count.png` — show import status and row count (~54 000).
-
+<p align="center">
+  <img src="https://github.com/xAHIINX00/honeypot-cloud-lab-azure/blob/e15c64bdd5afcf0850b63144a18afae7b462933e/watchlist.png"/>
+</p>
 ---
 
 ## 🔎 Step 3 — Test GeoIP Enrichment (KQL)
