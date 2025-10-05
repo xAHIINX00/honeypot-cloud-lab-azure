@@ -12,6 +12,9 @@ If you don’t have one yet:
   You’ll get **$200 credit for 30 days** and 12 months of free services!
 - Or use a **paid subscription** if you already have credits (just remember to clean up resources later).
 
+<p align="center">
+  <img src="https://github.com/xAHIINX00/honeypot-cloud-lab-azure/blob/7070dc25807a40113f3c6e5efd01f1431bcc1fbf/sign-in.png"/>
+</p>
 ---
 
 ## 💳 Step 2: Verify Subscription
