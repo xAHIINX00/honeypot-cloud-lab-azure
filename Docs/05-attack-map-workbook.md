@@ -9,9 +9,9 @@
 1. In **Microsoft Sentinel**, go to your connected workspace.  
 2. Click **Workbooks** → **+ Add workbook**.
 
-🖼️ **Screenshot to Capture:**  
-`docs/screenshots/14-workbook-advanced-editor-json.png`  
-_Showing the empty workbook in the Advanced Editor._
+<p align="center">
+  <img src="https://github.com/xAHIINX00/honeypot-cloud-lab-azure/blob/3f60035b637125571b8ca2b87aaaff1e44cbc2b3/Advanced%20editor.png"/>
+</p>
 
 ---
 
