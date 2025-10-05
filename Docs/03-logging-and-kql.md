@@ -46,9 +46,9 @@ _Show Sentinel connected to your workspace._
 
 > ⚡ *This may automatically install the Azure Monitor Agent (AMA) on your VM.*
 
-🖼️ **Screenshot to Capture:**  
-  
-`docs/screenshots/10-dcr-creation.png`  
+<p align="center">
+  <img src="https://github.com/xAHIINX00/honeypot-cloud-lab-azure/blob/3610257b4f68f29d41a1914abab7a2977d466049/DCR.png"/>
+</p>
 
 _Show your DCR setup and connector configuration._
 
