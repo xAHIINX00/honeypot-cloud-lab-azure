@@ -22,8 +22,9 @@ Once logged in:
 
 📝 *Example Screenshot:*  
 _Add this image in your repo later as_  
-https://github.com/xAHIINX00/honeypot-cloud-lab-azure/blob/d5008899303bd26bde3878142ee0e149acc9c4fe/Azure%20Platform.png  
-
+<p align="center">
+  <img src="https://github.com/xAHIINX00/honeypot-cloud-lab-azure/blob/d5008899303bd26bde3878142ee0e149acc9c4fe/Azure%20Platform.png"/>
+</p>
 ---
 
 ## 🧩 Step 3: Create a Resource Group
