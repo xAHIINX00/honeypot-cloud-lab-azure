@@ -50,8 +50,7 @@ _Show your NSG inbound rule allowing all traffic._
 2. Click **Connect → RDP** and download the RDP file.
 3. Use the credentials you created to log in.
 
-🖼️ **Screenshot to Capture:**  
-`docs/screenshots/04-vm-rdp-connect.png` (optional)
+
 
 ---
 
