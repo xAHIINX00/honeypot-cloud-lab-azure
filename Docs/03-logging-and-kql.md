@@ -14,9 +14,10 @@
    - **Region:** Same region as your VM (e.g., *East US*)
 4. Click **Review + Create → Create**.
 
-🖼️ **Screenshot to Capture:**  
-`docs/screenshots/07-law-overview.png`  
-_Show your workspace name and region._
+<p align="center">
+  <img src="https://github.com/xAHIINX00/honeypot-cloud-lab-azure/blob/11e1860b70375b86bbadb26082cc5c12806cfb4e/log%20analysis%20workspace.png"/>
+</p>
+
 
 ---
 
@@ -27,9 +28,10 @@ _Show your workspace name and region._
 3. Select the Log Analytics Workspace you just created (`Honeypot-LAW`).
 4. Click **Add** — this activates Sentinel for that workspace.
 
-🖼️ **Screenshot to Capture:**  
-`docs/screenshots/08-sentinel-overview.png`  
-_Show Sentinel connected to your workspace._
+<p align="center">
+  <img src="https://github.com/xAHIINX00/honeypot-cloud-lab-azure/blob/c38fa57ece270b85e62858aef431a11af6187c87/Sentinal.png"/>
+</p>
+
 
 ---
 
