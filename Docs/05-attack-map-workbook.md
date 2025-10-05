@@ -24,9 +24,9 @@ _Showing the empty workbook in the Advanced Editor._
 5. Click **Apply** → then **Done Editing**.  
 6. Save the workbook with a name like **“Honeypot Attack Map”**.
 
-🖼️ **Screenshot to Capture:**  
-`docs/screenshots/15-attack-map-final.png`  
-_Showing the world map visualization with attack sources._
+<p align="center">
+  <img src="https://github.com/xAHIINX00/honeypot-cloud-lab-azure/blob/21db1a23507c21e472c7356ce3d1af046bf956b4/Attack-Map.png"/>
+</p>
 
 ---
 
@@ -81,9 +81,3 @@ You now have a working setup that:
 ✨ *Project Completed — Excellent work, Analyst!* ✨
 
 
-Screenshot checklist:
-- `14-workbook-advanced-editor-json.png`
-# 15-attack-map-final
- <p align="center">
-  <img src="https://github.com/xAHIINX00/honeypot-cloud-lab-azure/blob/21db1a23507c21e472c7356ce3d1af046bf956b4/Attack-Map.png"/>
-</p>
