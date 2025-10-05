@@ -36,6 +36,11 @@ It’s best to keep all lab assets in one group.
 4. Choose your subscription and region (example: East US)
 5. Click **Review + Create → Create**
 
+ <p align="center">
+  <img src="https://github.com/xAHIINX00/honeypot-cloud-lab-azure/blob/88b529a0193fc6ce8b0f56591890bdfeecc2e0cf/Resource-Group.png"/>
+</p>
+
+
 ✅ This makes it super easy to delete everything when you’re done testing.
 
 ---
