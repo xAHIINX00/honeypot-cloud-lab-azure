@@ -47,7 +47,7 @@ _Show Sentinel connected to your workspace._
 > ⚡ *This may automatically install the Azure Monitor Agent (AMA) on your VM.*
 
 🖼️ **Screenshot to Capture:**  
-`docs/screenshots/09-windows-connector-config.png`  
+  
 `docs/screenshots/10-dcr-creation.png`  
 
 _Show your DCR setup and connector configuration._
@@ -64,8 +64,11 @@ Let’s create some failed login events to test the setup.
 4. Open **Event Viewer → Windows Logs → Security**.
 5. Look for **Event ID 4625 (An account failed to log on)**.
 
-🖼️ **Screenshot to Capture:**  
-`docs/screenshots/05-eventviewer-4625.png`
+<p align="center">
+  <img src="https://github.com/xAHIINX00/honeypot-cloud-lab-azure/blob/2931905064d8777c235f7ece96aeecce6b5ff97c/Event-Viewer.png"/>
+</p>
+
+ 
 
 💡 *Each failed login generates a security event that’s sent to your Log Analytics Workspace.*
 
@@ -76,7 +79,7 @@ Let’s create some failed login events to test the setup.
 Now, let’s confirm that your logs are reaching Sentinel.
 
 1. Go to **Microsoft Sentinel → Logs**.
-2. Paste this simple query (from `queries/query-4625.kql`):
+2. Paste this simple query:
 
    ```kql
    SecurityEvent
