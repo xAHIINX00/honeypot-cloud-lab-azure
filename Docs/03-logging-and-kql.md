@@ -90,3 +90,5 @@ Now, let’s confirm that your logs are reaching Sentinel.
 <p align="center">
   <img src="https://github.com/xAHIINX00/honeypot-cloud-lab-azure/blob/f1f413c45ad2e5037ada38f586de0086ecebba0a/Logs.png"/>
 </p>
+
+
