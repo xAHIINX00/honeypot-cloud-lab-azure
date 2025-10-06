@@ -50,3 +50,10 @@ We’ll enrich failed login (EventID 4625) logs with GeoIP data to show where at
 <p align="center">
   <img src="https://github.com/xAHIINX00/honeypot-cloud-lab-azure/blob/00b33601ca2adc582cb89f23cfa73452a80c5464/GeoIp-Lookup.png"/>
 </p>
+
+## Step 5️⃣  Enrich & Summarize All Recent Events (KQL)
+// Purpose: Summarize all failed login attempts by country/region for visualization
+
+<p align="center">
+  <img src="https://github.com/xAHIINX00/honeypot-cloud-lab-azure/blob/24db7615bae86e85f13570f282fb554564e752d3/Chart%20Logs.png"/>
+</p>
