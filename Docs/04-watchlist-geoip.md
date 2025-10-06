@@ -30,7 +30,19 @@ Use this sample GeoIP CSV file for the lab:
 </p>
 ---
 
-## 🔎 Step 3 — Test GeoIP Enrichment (KQL)
+## ⏳ Step 3 — Wait for Import to Complete
 
-Run this in Sentinel → **Logs**.  
-Replace `<ATTACKER_IP>` with an IP found from `query-4625.kql`.
+The watchlist can take several minutes to process and become queryable.  
+Once ready, it will appear in your Sentinel workspace under **Watchlists**.
+
+✅ **Verify:** You should see a status **“Succeeded”** and your alias **`geoip`** listed.
+
+---
+
+## 🔎 Step 4 — Test GeoIP Enrichment (Single IP)
+
+We’ll enrich failed login (EventID 4625) logs with GeoIP data to show where attackers are coming from.
+
+1. Go to **Microsoft Sentinel → Logs**.
+2. Paste this KQL query (or open `queries/query-geoip-lookup.kql`):
+3. Replace `<ATTACKER_IP>` with an IP observed from `query-4625.kql`.
