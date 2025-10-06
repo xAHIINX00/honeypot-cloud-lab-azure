@@ -46,3 +46,7 @@ We’ll enrich failed login (EventID 4625) logs with GeoIP data to show where at
 1. Go to **Microsoft Sentinel → Logs**.
 2. Paste this KQL query (or open `queries/query-geoip-lookup.kql`):
 3. Replace `<ATTACKER_IP>` with an IP observed from `query-4625.kql`.
+
+<p align="center">
+  <img src="https://github.com/xAHIINX00/honeypot-cloud-lab-azure/blob/00b33601ca2adc582cb89f23cfa73452a80c5464/GeoIp-Lookup.png"/>
+</p>
